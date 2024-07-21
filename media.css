@@ -1,0 +1,2654 @@
+/* الصفحة الاولى */
+/*992px*/
+@media screen and (max-width:992px){
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-image: url(images/hero\ img.jpg);
+        background-size: 100% 100%;
+        }
+        .title {
+            position: absolute;
+            padding-top: 20px;
+            margin-left: 10%;
+            color: #FF305B;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 800;
+            }
+            .forms{
+                float: right;
+                padding-top: 18px;
+              padding-right: 8%;
+                
+                
+            }
+            .forms label{
+                font-family: 'Roboto', sans-serif;
+                padding-left: 10px;
+                font-weight: 400;
+                font-size: 15px; 
+                color: white;
+            
+            }
+            .forms label:hover{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 14px; 
+                color: #FF305B;
+                cursor: pointer;
+            }
+        }
+                        /*768px*/
+@media screen and (max-width:768px){
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-image: url(images/hero\ img.jpg);
+        background-size: 100% 100%;
+        }
+        .title {
+            position: absolute;
+            padding-top: 18px;
+            margin-left: 5%;
+            color: #FF305B;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 800;
+            }
+            .forms{
+                float: right;
+                padding-top: 18px;
+              padding-right: 3%;
+                
+                
+            }
+            .forms label{
+                font-family: 'Roboto', sans-serif;
+                padding-left: 10px;
+                font-weight: 400;
+                font-size: 14px; 
+                color: white;
+            
+            }
+            .forms label:hover{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 14px; 
+                color: #FF305B;
+                cursor: pointer;
+            }
+        }
+/* 600px*/
+    @media screen and (max-width:600px){
+        .main{
+            height: 100vh;
+            width: 100%;
+            background-image: url(images/hero\ img.jpg);
+            background-size: 100% 100%;
+            }
+            .title {
+                position: absolute;
+                padding-top: 18px;
+                margin-left: 5%;
+                color: #FF305B;
+                font-size: 19px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 800;
+                }
+                .forms{
+                    float: right;
+                    padding-top: 18px;
+                  padding-right: 3%;
+                    
+                    
+                }
+                .forms label{
+                    font-family: 'Roboto', sans-serif;
+                    padding-left: 10px;
+                    font-weight: 400;
+                    font-size: 12px; 
+                    color: white;
+                
+                }
+                .forms label:hover{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 12px; 
+                    color: #FF305B;
+                    cursor: pointer;
+                }
+            }
+
+
+            /*الصفحة التانية*/
+            /*1517*/
+
+            /*1366*/
+            @media screen and (max-width:1366px){
+                .about-img{
+                    
+                    display: inline-block; 
+                    margin-top: 40px;
+                    margin-left: 5%;
+                    border: #555555 solid 8px;
+                    border-radius: 8px;
+                    }
+                    .about-img:hover .test{
+                        top: 0;
+                    }
+                    .about-img img{
+                        position: relative;
+                        border-radius: 5px;
+                    }
+                    .big-test{
+                        
+                       position: relative;
+                            transform: translatey(20px) translatex(20px);
+                            overflow: hidden;
+                    
+                    }
+                    .test{
+                        background-color:rgba(0, 0, 0, .6);
+                        height: 100%;
+                        width: 100%;
+                        top: 100%;
+                        position: absolute;
+                        transition: 0.5s;
+                       }
+                    .test ul{
+                        list-style-position: inside;
+                        list-style: none;
+                       
+                    }
+                    .test li{
+                        float: left;
+                       margin-top: 50%;
+                       margin-left: 50px;
+                    }
+                    .test li:hover{
+                        cursor: pointer;
+                    }
+                .about-mcap{
+                    width:40%;
+                    float: left;
+                    margin-top: 40px;
+                    margin-left: 130px;
+                    line-height: 1.3em;
+                    border-bottom: dotted 2px #555555;
+                    padding-bottom: 30px;
+                }
+                .about-mcap p{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #555555;
+                }
+                .about-mcap h2{
+                position: relative;
+                }
+                .about-mcap h2::before{
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 4px;
+                    height:100%;
+                    background-color: #FF305B;
+                
+                }
+                .clear{
+                    clear: both;
+                }
+                .about-scap{
+                width: 50%;
+                float: left;
+                margin-left: 130px;
+                margin-top: 30px;
+                
+                }
+                
+                .about-scap span{
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        color: #333333;
+                        font-weight: 500;
+                }
+                .about-scap p{
+                    width: 40%;
+                    padding-bottom: 20px;
+                    float: left;
+                            font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #555555;
+                }
+                
+                .about-scap a{
+                    display: inline-block;
+                    background-color:#FF305B;
+                    padding: 8px;
+                    color: #FFFFFF;
+                    border:#FF305B solid;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    margin-right: 50px;
+                    margin-left: 50px;
+                }
+                .about-scap a:hover{
+                    background-color:RGB(236, 36, 3);
+                    padding: 8px;
+                color: #FFFFFF;
+                
+                    border: RGB(236, 36, 3) solid;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    margin-right: 50px;
+                    margin-left: 50px;
+                }
+                i{
+                    margin-left: 10px;
+                    margin-top: 0px;
+                }
+            }
+            /*1200*/
+            @media screen and (max-width:1200px){
+                .about{
+                    width: 100%;
+                    height: 100vh;   
+                }
+                .about-img{
+                    float: left;
+                    margin-top: 100px;
+                    margin-left: 35%;
+                    border: #555555 solid 8px;
+                    border-radius: 8px;                    
+                    }
+                    .about-mcap{
+                        width: 90%;
+                        float: left;
+                        margin-top: 40px;
+                        margin-left: 5%;
+                        line-height: 1.5em;
+                        border-bottom: dotted 2px #555555;
+                        padding-bottom: 12px;
+                    }
+                    .about-mcap p{
+                        font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #555555;
+                }
+                .about-mcap h2::before{
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 4px;
+                    height:88%;
+                    background-color: #FF305B;
+                }
+                .clear{
+                    clear: both;
+                }
+                .about-scap{
+                    margin-left: 5%;
+                    width: 100%;
+                    float: left;
+                    margin-top: 20px; 
+                    margin-bottom: 20px;
+                    }
+                    .about-scap a{
+                        display: inline-block;
+                        background-color:#FF305B;
+                        padding: 10px;
+                        color: #FFFFFF;
+                        border:#FF305B solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        margin-right: 50px;
+                        margin-left: 10%;
+                    }
+                    .about-scap a:hover{
+                        background-color:RGB(236, 36, 3);
+                        padding: 10px;
+                        color: #FFFFFF;
+                        border: RGB(236, 36, 3) solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        margin-right: 50px;
+                        margin-left: 10%;
+                    }
+                    i{
+                        margin-left: 10px;
+                        margin-top: 0px;
+                    } 
+            }
+            /*992*/
+            @media screen and (max-width:992px){
+                .about{
+                    width: 100%;
+                    height: 100vh;   
+                }
+                .about-img{
+                    float: left;
+                    margin-top: 100px;
+                    margin-left: 25%;
+                    border: #555555 solid 8px;
+                    border-radius: 8px;                    
+                    }
+                    .about-mcap{
+                        width: 90%;
+                        float: left;
+                        margin-top: 40px;
+                        margin-left: 5%;
+                        line-height: 1.5em;
+                        border-bottom: dotted 2px #555555;
+                        padding-bottom: 13px;
+                    }
+                    .about-mcap p{
+                        font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 11px;
+                    color: #555555;
+                }
+                .about-mcap h2::before{
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 4px;
+                    height:88%;
+                    background-color: #FF305B;
+                }
+                .clear{
+                    clear: both;
+                }
+                .about-scap{
+                    margin-left: 5%;
+                    width: 100%;
+                    float: left;
+                    margin-top: 10px; 
+                    margin-bottom: 20px;
+                    }
+                    .about-scap a{
+                       display: inline-block;
+                        background-color:#FF305B;
+                        padding: 10px;
+                    color: #FFFFFF;
+                        border:#FF305B solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+
+                    }
+                    .about-scap a:hover{
+                        background-color:RGB(236, 36, 3);
+                        padding: 10px;
+                    color: #FFFFFF;
+                        border: RGB(236, 36, 3) solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+
+                    }
+
+            }
+            /*768*/
+            @media screen and (max-width:768px){
+                .about{
+                    width: 100%;
+                    height: 100vh;   
+                }
+                .about-img{
+                    float: left;
+                    margin-top: 100px;
+                    margin-left: 18%;
+                    border: #555555 solid 8px;
+                    border-radius: 8px;                    
+                    }
+                    .about-mcap{
+                        width: 90%;
+                        float: left;
+                        margin-top: 40px;
+                        margin-left: 5%;
+                        line-height: 1.5em;
+                        border-bottom: dotted 2px #555555;
+                        padding-bottom: 11px;
+                    }
+                    .about-mcap p{
+                        font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #555555;
+                }
+                .about-mcap h2::before{
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 4px;
+                    height:88%;
+                    background-color: #FF305B;
+                }
+                .clear{
+                    clear: both;
+                }
+                .about-scap{
+                    margin-left: 5%;
+                    width: 100%;
+                    float: left;
+                    margin-top: 10px; 
+                    margin-bottom: 30px;
+
+                    }
+                    .about-scap a{
+                        background-color:#FF305B;
+                        padding: 8px;
+                    color: #FFFFFF;
+                    
+                        border:#FF305B solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+       
+
+                    }
+                    .about-scap a:hover{
+                        background-color:RGB(236, 36, 3);
+                        padding: 8px;
+                    color: #FFFFFF;
+                    
+                        border: RGB(236, 36, 3) solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+
+                    }
+                    i{
+                        margin-left: 10px;
+                        margin-top: 0px;
+                    }
+            }
+            /*600px*/
+            @media screen and (max-width:600px){
+                .about{
+                    width: 100%;
+                    height: 100vh;   
+                }
+                .about-img{
+                    float: left;
+                    margin-top: 100px;
+                    margin-left: 5%;
+                    border: #555555 solid 8px;
+                    border-radius: 8px;                    
+                    }
+                    .about-mcap{
+                        width: 90%;
+                        float: left;
+                        margin-top: 40px;
+                        margin-left: 5%;
+                        line-height: 1.5em;
+                        border-bottom: dotted 2px #555555;
+                        padding-bottom: 12px;
+                    }
+                    .about-mcap p{
+                        font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #555555;
+                }
+                .about-mcap h2::before{
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 4px;
+                    height:88%;
+                    background-color: #FF305B;
+                }
+                .clear{
+                    clear: both;
+                }
+                .about-scap{
+                    margin-left: 5%;
+                    width: 100%;
+                    float: left;
+                    margin-top: 20px; 
+                    margin-bottom: 20px;
+                    }
+                    .about-scap a{
+                        background-color:#FF305B;
+                        padding: 5px;
+                    color: #FFFFFF;
+                    
+                        border:#FF305B solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        margin-right: 50px;
+                        margin-left: 50px;
+                    }
+                    .about-scap a:hover{
+                        background-color:RGB(236, 36, 3);
+                        padding: 5px;
+                    color: #FFFFFF;
+                    
+                        border: RGB(236, 36, 3) solid;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        margin-right: 50px;
+                        margin-left: 50px;
+                    }
+                    i{
+                        margin-left: 10px;
+                        margin-top: 0px;
+                    }
+                }
+                    /*الصفحة التالتة*/
+                    /*1366px*/
+                    @media screen and (max-width:1366px){
+                        .our-service{
+                            height: 80vh;
+                            width: 100%;
+                            background-color: #F1F1F1;
+                            overflow:hidden;
+                        }
+                        .our-service h2{
+                        display: inline-block;
+                        color: #333333;
+                        font-weight: 800;
+                            margin-left: 40%;
+                            text-align: center;
+                            position: relative;
+                            line-height: 3em;
+                            font-size: xx-large;
+                        }
+                        .our-service h2::before{
+                            content: "";
+                        left: 0;
+                        margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                        
+                            width: 10px;
+                            height: 10px;
+                            bottom: 0;
+                            border-top: solid 1px #FF305B;
+                            border-bottom: solid 1px #FF305B;
+                            width: 60px;
+                        
+                        }
+                        .our-service h2::after {
+                            content: "";
+                            left: 0;
+                            margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                            bottom: 5;
+                            background-color: #FF305B;
+                            width: 130px;
+                            height: 1px;
+                        }
+                        .ser-sec{
+                            margin-top: 50px;
+                            margin-left :2%; 
+                            text-align: center;
+                            
+                            
+                        }
+                        .ui-de,.app-dev,.pro-de,.ux-de
+                        {
+                            transition: 0.5s;
+                            width: 25%;
+                            float: left;
+                        border-radius: 5px;
+                        padding: 23px;
+                        }
+                        .ui-de i,.app-dev i,.pro-de i,.ux-de i
+                        {
+                            transition: 0.5s;
+                        margin-bottom: 30px;
+                        }
+                        .ui-de h4,.app-dev h4,.pro-de h4,.ux-de h4
+                        {
+                        color: #333333;
+                        font-weight: 600px;
+                        line-height: 2.2em;
+                        }
+                        .ui-de p,.app-dev p,.pro-de p,.ux-de p
+                        {
+                        color: #555555;
+                        font-weight: 400;
+                        font-weight: 600px;
+                        line-height: 1.3em;
+                        }
+                        .ui-de:hover i,.app-dev:hover i,.pro-de:hover i,.ux-de:hover i{
+                        transform: scale(1.5,1.5);
+                        }
+                        .ui-de:hover,.app-dev:hover,.pro-de:hover,.ux-de:hover {
+                            background-color: #FFFFFF;
+                            box-shadow: 1px 1px 12px #333333;
+                            cursor: pointer;
+                            }
+                    }
+                    /*1200*/
+                    @media screen and (max-width:1200px){
+                        .our-service{
+                            height: 100vh;
+                            width: 100%;
+                            background-color: #F1F1F1;
+                            overflow:hidden;
+                        }
+                        .our-service h2{
+                        display: inline-block;
+                        color: #333333;
+                        font-weight: 800;
+                            margin-left: 40%;
+                            text-align: center;
+                            position: relative;
+                            line-height: 3em;
+                            font-size: xx-large;
+                        }
+                        .our-service h2::before{
+                            content: "";
+                        left: 0;
+                        margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                        
+                            width: 10px;
+                            height: 10px;
+                            bottom: 0;
+                            border-top: solid 1px #FF305B;
+                            border-bottom: solid 1px #FF305B;
+                            width: 60px;
+                        
+                        }
+                        .our-service h2::after {
+                            content: "";
+                            left: 0;
+                            margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                            bottom: 5;
+                            background-color: #FF305B;
+                            width: 130px;
+                            height: 1px;
+                        }
+                        .ser-sec{
+                            margin-top: 50px;
+                            margin-left :2%; 
+                            text-align: center;
+                            
+                            
+                        }
+                        .ui-de,.app-dev,.pro-de,.ux-de
+                        {
+                            transition: 0.5s;
+                            width: 25%;
+                            float: left;
+                        border-radius: 5px;
+                        padding: 23px;
+                        }
+                        .ui-de i,.app-dev i,.pro-de i,.ux-de i
+                        {
+                            transition: 0.5s;
+                        margin-bottom: 30px;
+                        }
+                        .ui-de h4,.app-dev h4,.pro-de h4,.ux-de h4
+                        {
+                        color: #333333;
+                        font-weight: 600px;
+                        line-height: 2.2em;
+                        }
+                        .ui-de p,.app-dev p,.pro-de p,.ux-de p
+                        {
+                        color: #555555;
+                        font-weight: 400;
+                        font-weight: 600px;
+                        line-height: 1.3em;
+                        }
+                        .ui-de:hover i,.app-dev:hover i,.pro-de:hover i,.ux-de:hover i{
+                        transform: scale(1.5,1.5);
+                        }
+                        .ui-de:hover,.app-dev:hover,.pro-de:hover,.ux-de:hover {
+                            background-color: #FFFFFF;
+                            box-shadow: 1px 1px 12px #333333;
+                            cursor: pointer;
+                            }
+                    }
+                    /*992*/
+                    @media screen and (max-width:992px){
+                        .our-service{
+                            height: 100vh;
+                            width: 100%;
+                            background-color: #F1F1F1;
+                            overflow:hidden;
+                        }
+                        .our-service h2{
+                        display: inline-block;
+                        color: #333333;
+                        font-weight: 800;
+                            margin-left: 40%;
+                            text-align: center;
+                            position: relative;
+                            line-height: 3em;
+                            font-size: xx-large;
+                        }
+                        .our-service h2::before{
+                            content: "";
+                        left: 0;
+                        margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                        
+                            width: 10px;
+                            height: 10px;
+                            bottom: 0;
+                            border-top: solid 1px #FF305B;
+                            border-bottom: solid 1px #FF305B;
+                            width: 60px;
+                        
+                        }
+                        .our-service h2::after {
+                            content: "";
+                            left: 0;
+                            margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                            bottom: 5;
+                            background-color: #FF305B;
+                            width: 130px;
+                            height: 1px;
+                        }
+                        .ser-sec{
+                            margin-top: 50px;
+                            margin-left :2%; 
+                            text-align: center;
+                            
+                            
+                        }
+                        .ui-de,.app-dev,.pro-de,.ux-de
+                        {
+                            transition: 0.5s;
+                            width: 50%;
+                            float: left;
+                        border-radius: 5px;
+                        padding: 23px;
+                        }
+                        .ui-de i,.app-dev i,.pro-de i,.ux-de i
+                        {
+                            transition: 0.5s;
+                        margin-bottom: 30px;
+                        }
+                        .ui-de h4,.app-dev h4,.pro-de h4,.ux-de h4
+                        {
+                        color: #333333;
+                        font-weight: 600px;
+                        line-height: 2.2em;
+                        }
+                        .ui-de p,.app-dev p,.pro-de p,.ux-de p
+                        {
+                        color: #555555;
+                        font-weight: 400;
+                        font-weight: 600px;
+                        line-height: 1.3em;
+                        }
+                        .ui-de:hover i,.app-dev:hover i,.pro-de:hover i,.ux-de:hover i{
+                        transform: scale(1.5,1.5);
+                        }
+                        .ui-de:hover,.app-dev:hover,.pro-de:hover,.ux-de:hover {
+                            background-color: #FFFFFF;
+                            box-shadow: 1px 1px 12px #333333;
+                            cursor: pointer;
+                            }
+
+                    }
+                    /*768px*/
+                    @media screen and (max-width:768px){
+                        .our-service{
+                            height: 100vh;
+                            width: 100%;
+                            background-color: #F1F1F1;
+                            overflow:hidden;
+                        }
+                        .our-service h2{
+                        display: inline-block;
+                        color: #333333;
+                        font-weight: 800;
+                            margin-left: 40%;
+                            text-align: center;
+                            position: relative;
+                            line-height: 3em;
+                            font-size: xx-large;
+                        }
+                        .our-service h2::before{
+                            content: "";
+                        left: 0;
+                        margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                        
+                            width: 10px;
+                            height: 10px;
+                            bottom: 0;
+                            border-top: solid 1px #FF305B;
+                            border-bottom: solid 1px #FF305B;
+                            width: 60px;
+                        
+                        }
+                        .our-service h2::after {
+                            content: "";
+                            left: 0;
+                            margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                            bottom: 5;
+                            background-color: #FF305B;
+                            width: 130px;
+                            height: 1px;
+                        }
+                        .ser-sec{
+                            margin-top: 50px;
+                            margin-left :2%; 
+                            text-align: center;
+                            
+                            
+                        }
+                        .ui-de,.app-dev,.pro-de,.ux-de
+                        {
+                            transition: 0.5s;
+                            width: 50%;
+                            float: left;
+                        border-radius: 5px;
+                        padding: 23px;
+                        }
+                        .ui-de i,.app-dev i,.pro-de i,.ux-de i
+                        {
+                            transition: 0.5s;
+                        margin-bottom: 30px;
+                        }
+                        .ui-de h4,.app-dev h4,.pro-de h4,.ux-de h4
+                        {
+                        color: #333333;
+                        font-weight: 600px;
+                        line-height: 2.2em;
+                        }
+                        .ui-de p,.app-dev p,.pro-de p,.ux-de p
+                        {
+                        color: #555555;
+                        font-weight: 400;
+                        font-weight: 600px;
+                        line-height: 1.3em;
+                        }
+                        .ui-de:hover i,.app-dev:hover i,.pro-de:hover i,.ux-de:hover i{
+                        transform: scale(1.5,1.5);
+                        }
+                        .ui-de:hover,.app-dev:hover,.pro-de:hover,.ux-de:hover {
+                            background-color: #FFFFFF;
+                            box-shadow: 1px 1px 12px #333333;
+                            cursor: pointer;
+                            }
+                    }
+                    /*600px*/
+                    @media screen and (max-width:600px){
+                        .our-service{
+    
+                            height: auto;
+                            width: 100%;
+                            background-color: #F1F1F1;
+                            overflow:hidden;
+                            
+                        }
+                        .our-service h2{
+                        display: inline-block;
+                        color: #333333;
+                        font-weight: 800;
+                            margin-left: 25%;
+                            text-align: center;
+                            position: relative;
+                            line-height: 3em;
+                            font-size: xx-large;
+                        }
+                        .our-service h2::before{
+                            content: "";
+                        left: 0;
+                        margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                        
+                            width: 10px;
+                            height: 10px;
+                            bottom: 0;
+                            border-top: solid 1px #FF305B;
+                            border-bottom: solid 1px #FF305B;
+                            width: 60px;
+                        
+                        }
+                        .our-service h2::after {
+                            content: "";
+                            left: 0;
+                            margin: 0 auto;
+                            position: absolute;
+                            right: 0;
+                            bottom: 5;
+                            background-color: #FF305B;
+                            width: 130px;
+                            height: 1px;
+                        }
+                        .ser-sec{
+                            margin-top: 50px;
+                            margin-left :2%; 
+                            text-align: center;
+                            
+                            
+                        }
+                        .ui-de,.app-dev,.pro-de,.ux-de
+                        {
+                            transition: 0.5s;
+                            width: 50%;
+                            float: left;
+                        border-radius: 5px;
+                        padding: 23px;
+                        }
+                        .ui-de i,.app-dev i,.pro-de i,.ux-de i
+                        {
+                            transition: 0.5s;
+                        margin-bottom: 30px;
+                        }
+                        .ui-de h4,.app-dev h4,.pro-de h4,.ux-de h4
+                        {
+                        color: #333333;
+                        font-weight: 600px;
+                        line-height: 2.2em;
+                        }
+                        .ui-de p,.app-dev p,.pro-de p,.ux-de p
+                        {
+                        color: #555555;
+                        font-weight: 400;
+                        font-weight: 600px;
+                        line-height: 1.3em;
+                        }
+                        .ui-de:hover i,.app-dev:hover i,.pro-de:hover i,.ux-de:hover i{
+                        transform: scale(1.5,1.5);
+                        }
+                        .ui-de:hover,.app-dev:hover,.pro-de:hover,.ux-de:hover {
+                            background-color: #FFFFFF;
+                            box-shadow: 1px 1px 12px #333333;
+                            cursor: pointer;
+                            }
+                    }
+                    /*الصفحة الرابعة */
+                    /*1366px*/
+                    @media screen and (max-width:1365px){
+                        .Our-Portfolio{
+                            height: 100vh;
+                            width: 100%;
+                        }
+                        .Our-Portfolio h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 20px;
+                                margin-left: 610px;
+                                text-align: center;
+                                position: relative;
+                                line-height: 3em;
+                                font-size: xx-large;
+                            }
+                            .Our-Portfolio  h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                            
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            
+                            }
+                            .Our-Portfolio h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4
+                                ;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                        .Our-Portfolio ul{
+                            margin-top: 30px;
+                            margin-left: 530px;
+                            float: left;
+                            list-style: none;
+                        }
+                        .Our-Portfolio li{
+                        transition: 0.5s;
+                            float: left;
+                            padding-right: 30px;
+                            color: #333333;
+                            font-weight: 400;
+                            
+                        margin-bottom: 25px;
+                        }
+                        .Our-Portfolio li:hover{
+                            cursor: pointer;
+                            color: #FF305B;
+                        }
+                        .ourp-main{
+                            width:100%;
+                        }
+                        .frow ,.srow{
+                            position: relative;
+                            right: 250px;
+                            padding-top: 25PX;
+                        }
+                        .ourp-img{
+                            position: relative;
+                            width: 26%;
+                            float: left;   
+                        }
+                        .ourp-img img{
+                        
+                            width: 100%;
+                        padding-left: 20px;
+                        }
+                        
+                        
+                        .mohab{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 93.2%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        
+                        }
+                        .belkan{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 93.2%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        }
+                        .mohab i{
+                            position: relative;
+                            top: 60%;
+                            left: 84%;  
+                        }
+                        .ourp-img:hover .mohab{
+                        opacity: 1;
+                        transition: 0.6s;
+                        }
+                        .ourp-img:hover .belkan{
+                            opacity: 1;
+                            transition: 0.6s;
+                            }
+                            .belkan i{
+                                position: relative;
+                                top: 60%;
+                                left: 84%;  
+                            }
+                            .our-blog{
+                                font-family: 'Roboto', sans-serif;
+                                background-color: #F1F1F1;
+                                width: 100%;
+                                height: fit-content;
+                                overflow: hidden;
+                            }
+                            .contact{
+                                width: 100%;
+                                height: 80vh;
+                                background-color: #FFFFFF;
+                            }
+                                .contact h2{
+                                    color: #333333;
+                                    font-weight: 800;
+                                        width: fit-content;
+                                        margin-top: 20px;
+                                        margin-left: 600px;
+                                        text-align: center;
+                                        position: relative;
+                                        line-height: 2em;
+                                        font-size: xx-large;
+                                    }
+                                    .contact h2::before{
+                                        content: "";
+                                    left: 0;
+                                    margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                    
+                                        width: 10px;
+                                        height: 10px;
+                                        bottom: 0;
+                                        border-top: solid 1px #FF305B;
+                                        border-bottom: solid 1px #FF305B;
+                                        width: 60px;
+                                    
+                                    }
+                                    .contact h2::after {
+                                        content: "";
+                                        left: 0;
+                                        margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                        bottom: 4;
+                                        background-color: #FF305B;
+                                        width: 130px;
+                                        height: 1px;
+                                    }
+                            .contact-body{
+                                width: 40%;
+                                margin: auto;
+                                margin-top: 50px;
+                            }
+                            .name{
+                                font-family: 'Roboto', sans-serif;
+                                width: 40%;
+                                margin-right: 25px;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .email{
+                                font-family: 'Roboto', sans-serif;
+                                width: 40%;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            
+                            }
+                            .subject{
+                                font-family: 'Roboto', sans-serif;
+                                margin-top: 40px;
+                                display: block;
+                                width: 100%;
+                                height: 30px;
+                                border-radius: 4px;
+                                margin-bottom: 40px;
+                                width: 86%;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .txarea{
+                                font-family: 'Roboto', sans-serif;
+                                width: 86%;
+                                height: 100px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .name:focus,.email:focus,.subject:focus,.txarea:focus{
+                                border: #DC8382 solid 2px;
+                            
+                            }
+                            .contact-body button{
+                                font-family: 'Roboto', sans-serif;
+                                display: block;
+                               padding: 5px 10px;
+                               background-color: #FF305B;
+                               border-radius: 4px;
+                               border: none;
+                               margin-top: 20px;
+                               cursor: pointer;
+                               color: #F1F1F1;
+                            }
+                            .contact-body button:hover{
+                                background-color: RGB(236, 36, 3);
+                                transition:0.5s;
+                            }
+                    }
+
+                    /*1200*/
+                    @media screen and (max-width:1200px){
+                        .Our-Portfolio{
+                            height: 100vh;
+                            width: 100%;
+                            overflow: hidden;
+                        }
+                        .Our-Portfolio h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 20px;
+                                margin-left: 40%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 3em;
+                                font-size: xx-large;
+                                
+                            }
+                            .Our-Portfolio  h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                            
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            
+                            }
+                            .Our-Portfolio h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4
+                                ;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                        .Our-Portfolio ul{
+                            margin-top: 30px;
+                            margin-left: 35%;
+                            float: left;
+                            list-style: none;
+                        }
+                        .Our-Portfolio li{
+                        transition: 0.5s;
+                            float: left;
+                            padding-right: 10px;
+                            color: #333333;
+                            font-weight: 400;
+                            
+                        margin-bottom: 25px;
+                        }
+                        .Our-Portfolio li:hover{
+                            cursor: pointer;
+                            color: #FF305B;
+                        }
+                        .ourp-main{
+                            width:100%;
+                        }
+                        .frow ,.srow{
+                            width: 100%;
+                            display: block;
+                            position: relative;
+                            padding-top: 25PX;
+                            margin-left: 20%;
+                        }
+                        .ourp-img{
+                            width: 30%;
+                            float: left;   
+                        }
+                        .ourp-img img{
+                        
+                            width: 100%;
+
+                        }
+                        
+                        
+                        .mohab{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        
+                        }
+                        .belkan{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        }
+                        .mohab i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .belkan i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .ourp-img:hover .mohab{
+                        opacity: 1;
+                        transition: 0.6s;
+                        }
+                        .ourp-img:hover .belkan{
+                            opacity: 1;
+                            transition: 0.6s;
+                            }
+                            .contact{
+                                width: 100%;
+                                height: 80vh;
+                                background-color: #FFFFFF;
+                            }
+                                .contact h2{
+                                    color: #333333;
+                                    font-weight: 800;
+                                        width: fit-content;
+                                        margin-top: 20px;
+                                        margin-left: 40%;
+                                        text-align: center;
+                                        position: relative;
+                                        line-height: 2em;
+                                        font-size: xx-large;
+                                    }
+                                    .contact h2::before{
+                                        content: "";
+                                    left: 0;
+                                    margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                    
+                                        width: 10px;
+                                        height: 10px;
+                                        bottom: 0;
+                                        border-top: solid 1px #FF305B;
+                                        border-bottom: solid 1px #FF305B;
+                                        width: 60px;
+                                    
+                                    }
+                                    .contact h2::after {
+                                        content: "";
+                                        left: 0;
+                                        margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                        bottom: 4;
+                                        background-color: #FF305B;
+                                        width: 130px;
+                                        height: 1px;
+                                    }
+                            .contact-body{
+                                width: 80%;
+                                margin: auto;
+                                margin-top: 50px;
+                            }
+                            .name{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                margin-right: 25px;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .email{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            
+                            }
+                            .subject{
+                                font-family: 'Roboto', sans-serif;
+                                margin-top: 40px;
+                                display: block;
+                                width: 100%;
+                                height: 30px;
+                                border-radius: 4px;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .txarea{
+                                font-family: 'Roboto', sans-serif;
+                                width: 100%;
+                                height: 50px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .name:focus,.email:focus,.subject:focus,.txarea:focus{
+                                border: #DC8382 solid 2px;
+                            
+                            }
+                            .contact-body button{
+                                font-family: 'Roboto', sans-serif;
+                                display: block;
+                               padding: 5px 10px;
+                               background-color: #FF305B;
+                               border-radius: 4px;
+                               border: none;
+                               margin-top: 10px;
+                               cursor: pointer;
+                               color: #F1F1F1;
+                            }
+                            .contact-body button:hover{
+                                background-color: RGB(236, 36, 3);
+                                transition:0.5s;
+                            }
+                    }
+                    }
+                    /*992*/
+                    @media screen and (max-width:992px){
+                        .Our-Portfolio{
+                            height: 100vh;
+                            width: 100%;
+                            overflow: hidden;
+                        }
+                        .Our-Portfolio h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 20px;
+                                margin-left: 30%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 3em;
+                                font-size: xx-large;
+                                
+                            }
+                            .Our-Portfolio  h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                            
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            
+                            }
+                            .Our-Portfolio h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4
+                                ;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                        .Our-Portfolio ul{
+                            margin-top: 30px;
+                            margin-left: 40%;
+                            float: left;
+                            list-style: none;
+                        }
+                        .Our-Portfolio li{
+                        transition: 0.5s;
+                            float: left;
+                            padding-right: 10px;
+                            color: #333333;
+                            font-weight: 400;
+                            
+                        margin-bottom: 25px;
+                        }
+                        .Our-Portfolio li:hover{
+                            cursor: pointer;
+                            color: #FF305B;
+                        }
+                        .ourp-main{
+                            width:100%;
+                        }
+                        .frow ,.srow{
+                            width: 100%;
+                            display: block;
+                            position: relative;
+                            padding-top: 25PX;
+                            margin-left: 30%;
+                        }
+                        .ourp-img{
+                            width: 30%;
+                            float: left;   
+                        }
+                        .ourp-img img{
+                        
+                            width: 100%;
+
+                        }
+                        
+                        
+                        .mohab{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        
+                        }
+                        .belkan{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        }
+                        .mohab i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .belkan i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .ourp-img:hover .mohab{
+                        opacity: 1;
+                        transition: 0.6s;
+                        }
+                        .ourp-img:hover .belkan{
+                            opacity: 1;
+                            transition: 0.6s;
+                            }
+                            .contact{
+                                width: 100%;
+                                height: 80vh;
+                                background-color: #FFFFFF;
+                            }
+                                .contact h2{
+                                    color: #333333;
+                                    font-weight: 800;
+                                        width: fit-content;
+                                        margin-top: 20px;
+                                        margin-left: 40%;
+                                        text-align: center;
+                                        position: relative;
+                                        line-height: 2em;
+                                        font-size: xx-large;
+                                    }
+                                    .contact h2::before{
+                                        content: "";
+                                    left: 0;
+                                    margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                    
+                                        width: 10px;
+                                        height: 10px;
+                                        bottom: 0;
+                                        border-top: solid 1px #FF305B;
+                                        border-bottom: solid 1px #FF305B;
+                                        width: 60px;
+                                    
+                                    }
+                                    .contact h2::after {
+                                        content: "";
+                                        left: 0;
+                                        margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                        bottom: 4;
+                                        background-color: #FF305B;
+                                        width: 130px;
+                                        height: 1px;
+                                    }
+                            .contact-body{
+                                width: 80%;
+                                margin: auto;
+                                margin-top: 50px;
+                            }
+                            .name{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                margin-right: 25px;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .email{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            
+                            }
+                            .subject{
+                                font-family: 'Roboto', sans-serif;
+                                margin-top: 40px;
+                                display: block;
+                                width: 100%;
+                                height: 30px;
+                                border-radius: 4px;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .txarea{
+                                font-family: 'Roboto', sans-serif;
+                                width: 100%;
+                                height: 50px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .name:focus,.email:focus,.subject:focus,.txarea:focus{
+                                border: #DC8382 solid 2px;
+                            
+                            }
+                            .contact-body button{
+                                font-family: 'Roboto', sans-serif;
+                                display: block;
+                               padding: 5px 10px;
+                               background-color: #FF305B;
+                               border-radius: 4px;
+                               border: none;
+                               margin-top: 10px;
+                               cursor: pointer;
+                               color: #F1F1F1;
+                            }
+                            .contact-body button:hover{
+                                background-color: RGB(236, 36, 3);
+                                transition:0.5s;
+                            }
+                    }
+                    
+                    /*768*/
+                    @media screen and (max-width:768px){
+                        .Our-Portfolio{
+                            height: 100vh;
+                            width: 100%;
+                            overflow: hidden;
+                        }
+                        .Our-Portfolio h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 20px;
+                                margin-left: 40%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 3em;
+                                font-size: xx-large;
+                                
+                            }
+                            .Our-Portfolio  h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                            
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            
+                            }
+                            .Our-Portfolio h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4
+                                ;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                        .Our-Portfolio ul{
+                            margin-top: 30px;
+                            margin-left: 30%;
+                            float: left;
+                            list-style: none;
+                        }
+                        .Our-Portfolio li{
+                        transition: 0.5s;
+                            float: left;
+                            padding-right: 20px;
+                            color: #333333;
+                            font-weight: 400;
+                            
+                        margin-bottom: 25px;
+                        }
+                        .Our-Portfolio li:hover{
+                            cursor: pointer;
+                            color: #FF305B;
+                        }
+                        .ourp-main{
+                            width:100%;
+                        }
+                        .frow ,.srow{
+                            width: 100%;
+                            display: block;
+                            position: relative;
+                            padding-top: 25PX;
+                            margin-left: 50%;
+                        }
+                        .ourp-img{
+                            width: 30%;
+                            float: left;   
+                        }
+                        .ourp-img img{
+                        
+                            width: 100%;
+
+                        }
+                        
+                        
+                        .mohab{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        
+                        }
+                        .belkan{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        }
+                        .mohab i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .belkan i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .ourp-img:hover .mohab{
+                        opacity: 1;
+                        transition: 0.6s;
+                        }
+                        .ourp-img:hover .belkan{
+                            opacity: 1;
+                            transition: 0.6s;
+                            }
+                            .contact{
+                                width: 100%;
+                                height: 80vh;
+                                background-color: #FFFFFF;
+                            }
+                                .contact h2{
+                                    color: #333333;
+                                    font-weight: 800;
+                                        width: fit-content;
+                                        margin-top: 20px;
+                                        margin-left: 40%;
+                                        text-align: center;
+                                        position: relative;
+                                        line-height: 2em;
+                                        font-size: xx-large;
+                                    }
+                                    .contact h2::before{
+                                        content: "";
+                                    left: 0;
+                                    margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                    
+                                        width: 10px;
+                                        height: 10px;
+                                        bottom: 0;
+                                        border-top: solid 1px #FF305B;
+                                        border-bottom: solid 1px #FF305B;
+                                        width: 60px;
+                                    
+                                    }
+                                    .contact h2::after {
+                                        content: "";
+                                        left: 0;
+                                        margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                        bottom: 4;
+                                        background-color: #FF305B;
+                                        width: 130px;
+                                        height: 1px;
+                                    }
+                            .contact-body{
+                                width: 80%;
+                                margin: auto;
+                                margin-top: 50px;
+                            }
+                            .name{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                margin-right: 25px;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .email{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            
+                            }
+                            .subject{
+                                font-family: 'Roboto', sans-serif;
+                                margin-top: 40px;
+                                display: block;
+                                width: 100%;
+                                height: 30px;
+                                border-radius: 4px;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .txarea{
+                                font-family: 'Roboto', sans-serif;
+                                width: 100%;
+                                height: 50px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .name:focus,.email:focus,.subject:focus,.txarea:focus{
+                                border: #DC8382 solid 2px;
+                            
+                            }
+                            .contact-body button{
+                                font-family: 'Roboto', sans-serif;
+                                display: block;
+                               padding: 5px 10px;
+                               background-color: #FF305B;
+                               border-radius: 4px;
+                               border: none;
+                               margin-top: 10px;
+                               cursor: pointer;
+                               color: #F1F1F1;
+                            }
+                            .contact-body button:hover{
+                                background-color: RGB(236, 36, 3);
+                                transition:0.5s;
+                            }
+                    }
+                    
+                    /*600px*/
+                    @media screen and (max-width:600px){
+                        .Our-Portfolio{
+                            height: 100vh;
+                            width: 100%;
+                            overflow: hidden;
+                        }
+                        .Our-Portfolio h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 20px;
+                                margin-left: 20%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 3em;
+                                font-size: xx-large;
+                                
+                            }
+                            .Our-Portfolio  h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                            
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            
+                            }
+                            .Our-Portfolio h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4
+                                ;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                        .Our-Portfolio ul{
+                            margin-top: 30px;
+                            margin-left: 10%;
+                            float: left;
+                            list-style: none;
+                        }
+                        .Our-Portfolio li{
+                        transition: 0.5s;
+                            float: left;
+                            padding-right: 15px;
+                            color: #333333;
+                            font-weight: 400;
+                            
+                        margin-bottom: 25px;
+                        }
+                        .Our-Portfolio li:hover{
+                            cursor: pointer;
+                            color: #FF305B;
+                        }
+                        .ourp-main{
+                            width:100%;
+                        }
+                        .frow ,.srow{
+                            width: 100%;
+                            display: block;
+                            position: relative;
+                            padding-top: 25PX;
+                            margin-left: 50%;
+                        }
+                        .ourp-img{
+                            width: 30%;
+                            float: left;   
+                        }
+                        .ourp-img img{
+                        
+                            width: 100%;
+
+                        }
+                        
+                        
+                        .mohab{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        
+                        }
+                        .belkan{
+                            background-color: rgba(0, 0, 0, .4);
+                            width: 85%;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 20;
+                            opacity: 0;
+                        }
+                        .mohab i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .belkan i{
+                            position: relative;
+                            top: 60%;
+                            left: 75%;  
+                        }
+                        .ourp-img:hover .mohab{
+                        opacity: 1;
+                        transition: 0.6s;
+                        }
+                        .ourp-img:hover .belkan{
+                            opacity: 1;
+                            transition: 0.6s;
+                            }
+                            .contact{
+                                width: 100%;
+                                height: 80vh;
+                                background-color: #FFFFFF;
+                            }
+                                .contact h2{
+                                    color: #333333;
+                                    font-weight: 800;
+                                        width: fit-content;
+                                        margin-top: 20px;
+                                        margin-left: 40%;
+                                        text-align: center;
+                                        position: relative;
+                                        line-height: 2em;
+                                        font-size: xx-large;
+                                    }
+                                    .contact h2::before{
+                                        content: "";
+                                    left: 0;
+                                    margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                    
+                                        width: 10px;
+                                        height: 10px;
+                                        bottom: 0;
+                                        border-top: solid 1px #FF305B;
+                                        border-bottom: solid 1px #FF305B;
+                                        width: 60px;
+                                    
+                                    }
+                                    .contact h2::after {
+                                        content: "";
+                                        left: 0;
+                                        margin: 0 auto;
+                                        position: absolute;
+                                        right: 0;
+                                        bottom: 4;
+                                        background-color: #FF305B;
+                                        width: 130px;
+                                        height: 1px;
+                                    }
+                            .contact-body{
+                                width: 80%;
+                                margin: auto;
+                                margin-top: 50px;
+                            }
+                            .name{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                margin-right: 25px;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .email{
+                                font-family: 'Roboto', sans-serif;
+                                width: 42%;
+                                height: 30px;
+                                border-radius: 4px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            
+                            }
+                            .subject{
+                                font-family: 'Roboto', sans-serif;
+                                margin-top: 40px;
+                                display: block;
+                                width: 100%;
+                                height: 30px;
+                                border-radius: 4px;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .txarea{
+                                font-family: 'Roboto', sans-serif;
+                                width: 100%;
+                                height: 50px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border:#8d8888 solid 1px;
+                            }
+                            .name:focus,.email:focus,.subject:focus,.txarea:focus{
+                                border: #DC8382 solid 2px;
+                            
+                            }
+                            .contact-body button{
+                                font-family: 'Roboto', sans-serif;
+                                display: block;
+                               padding: 5px 10px;
+                               background-color: #FF305B;
+                               border-radius: 4px;
+                               border: none;
+                               margin-top: 10px;
+                               cursor: pointer;
+                               color: #F1F1F1;
+                            }
+                            .contact-body button:hover{
+                                background-color: RGB(236, 36, 3);
+                                transition:0.5s;
+                            }
+                    }
+                    /*الصفحة الخامسة*/
+                    /*1017*/
+                    @media screen and (max-width:1017px){
+                        .designi{
+                            background-color: #F1F1F1;
+                            width: 100%;
+                            height: 30vh;
+                            font-family: 'Roboto', sans-serif;
+                            
+                        }
+                        .mem-de,.file-de,.down-de,.cup-de{
+                            margin-left: 30px;
+                            margin-top: 10px;
+                            text-align: center;
+                            align-items: center;
+                            width: 20%;
+                            float: left;
+                        }
+                        .mem-de i,.file-de i,.down-de i,.cup-de i{
+                           margin-left: 2px;
+                           margin-bottom: 13px;
+                        }
+                        .mem-de h3,.file-de h3,.down-de h3,.cup-de h3{
+                        font-size: 25px;
+                        line-height: 2em;
+                        color: #333333;
+                        }
+                        .mem-de h5,.file-de h5,.down-de h5,.cup-de h5{
+                            font-size: 17px;
+                            color: #555555;
+                        
+                            }
+                    }
+                    /*768*/
+                    @media screen and (max-width:768px){
+                        .designi{
+                            background-color: #F1F1F1;
+                            width: 100%;
+                            height: 30vh;
+                            font-family: 'Roboto', sans-serif;
+                            
+                        }
+                        .mem-de,.file-de,.down-de,.cup-de{
+                            margin-left: 30px;
+                            margin-top: 20px;
+                            text-align: center;
+                            align-items: center;
+                            width: 18%;
+                            float: left;
+                        }
+                        .mem-de i,.file-de i,.down-de i,.cup-de i{
+                           margin-left: 2px;
+                           margin-bottom: 13px;
+                        }
+                        .mem-de h3,.file-de h3,.down-de h3,.cup-de h3{
+                        font-size: 25px;
+                        line-height: 2em;
+                        color: #333333;
+                        }
+                        .mem-de h5,.file-de h5,.down-de h5,.cup-de h5{
+                            font-size: 17px;
+                            color: #555555;
+                        
+                            }
+                    }
+                    /*600*/
+                    @media screen and (max-width:600px){
+                        .designi{
+                            background-color: #F1F1F1;
+                            width: 100%;
+                            height: 30vh;
+                            font-family: 'Roboto', sans-serif;
+                            
+                        }
+                        .mem-de,.file-de,.down-de,.cup-de{
+                            margin-left: 30px;
+                            margin-top: 20px;
+                            text-align: center;
+                            align-items: center;
+                            width: 18%;
+                            float: left;
+                        }
+                        .mem-de i,.file-de i,.down-de i,.cup-de i{
+                           margin-left: 2px;
+                           margin-bottom: 13px;
+                        }
+                        .mem-de h3,.file-de h3,.down-de h3,.cup-de h3{
+                        font-size: 25px;
+                        line-height: 2em;
+                        color: #333333;
+                        }
+                        .mem-de h5,.file-de h5,.down-de h5,.cup-de h5{
+                            font-size: 17px;
+                            color: #555555;
+                        
+                            }
+                    }
+                    /*الصفحة السادسة */
+                    @media screen and (max-width:1200px){
+                        .Client h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 60px;
+                                margin-left: 20%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 2em;
+                                font-size: xx-large;
+                            }
+                            .Client h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            }
+                            .Client h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                            .mohab-bigstyle{
+                                width: 90%;
+                                height: 50%;
+                                background-color: #F1F1F1;
+                                margin: 50px auto ;
+                                position: relative;
+                                overflow: hidden;
+                                border-radius: 4px;
+                            }
+                            .mohab-bigstyle::before{
+                                content:"";
+                                background-color: #FF305B;
+                                position: absolute;
+                                width: 200px;
+                                height: 340px;
+                                right: 88%;
+                                bottom: 25%;
+                                transform: rotate(45deg);
+                            }
+                        .cli-img{
+                            position: absolute;
+                            float: left;
+                            width: 108px;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        
+                        }
+                        .cli-img img{
+                            width: 100%;
+                            border-radius: 100px;
+                        }
+                        .cli-txt{
+                            text-align: center;
+                            margin-right: 11%;
+                            margin-top: 50px;
+                        
+                        }
+                        .cli-txt h3{
+                        color: #333333;
+                        font-family: 'Roboto', sans-serif;
+                        }
+                        .cli-txt i{
+                            position: absolute;
+                            right: 70%;
+                            top: 91px;
+                        }
+                        .cli-txt label{
+                            color: #333333;
+                        font-family: 'Roboto', sans-serif;
+                           position: relative;
+                           top: 10px;
+                           right: 35px;
+                        }
+                        .cli-txt p{
+                            width: 80%;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            font-size: 13px;
+                            margin-top: 20px;
+                            margin-left: 140px;
+                            text-align: left;
+                            color: #555555;
+                        }
+                        .stars{
+                            margin-left: 130px;
+                        }
+                        .stars i{
+                            width: 5px;
+                        }
+                        .our-blog{
+                            font-family: 'Roboto', sans-serif;
+                            background-color: #F1F1F1;
+                            width: 100%;
+                            height: fit-content;
+                            overflow: hidden;
+                        }
+                        .our-blog h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 45px;
+                                margin-left: 40%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 2em;
+                                font-size: xx-large;
+                            }
+                            .our-blog h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            }
+                            .our-blog h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                            .our-contaner{
+                                margin-left: 65px;
+                                margin-top: 20px;
+                                line-height: 3em;
+                            }
+                            .our-contaner p{
+                                line-height: 1.5em;
+                                color: #8d8888;
+                            }
+                            .grab i{
+                                float: left;
+                                position: relative;
+                                top: 20px;
+                            }
+                            .our-contaner a{
+                               transition: 0.8s;
+                               float: left;
+                               font-size: 17px;
+                               font-weight: 400;
+                               text-decoration: unset;
+                               color: #333333;
+                            }
+                            .blog-one,.blog-yout,.blog-two{
+                                width: 80%;
+                                background-color: #FFFFFF;
+                                float: left; 
+                                margin-left: 10px;
+                                margin-bottom: 20px;
+                            }
+                            .grab{
+                                padding-left: 20px;
+                            }
+                            .our-contaner img{
+                                width: 100%;
+                            }
+                            .blog-yout iframe{
+                        
+                        
+                            }
+                            .pad{
+                                padding-top: 16px;
+                            }
+                            .blog-one h4,.blog-yout h4,.blog-two h4{
+                                transition: 0.8s;
+                                font-size: 16;
+                                cursor: pointer;
+                            }
+                            .blog-one h4:hover,.blog-yout h4:hover,.blog-two h4:hover{
+                                color: #FF305B;
+                            }
+                            .blog-one a:hover,.blog-yout a:hover,.blog-two a:hover{
+                                color: #FF305B;
+                            }
+                    }
+                    @media screen and (max-width:600px){
+                        .Client h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 60px;
+                                margin-left: 20%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 2em;
+                                font-size: xx-large;
+                            }
+                            .Client h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            }
+                            .Client h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                            .mohab-bigstyle{
+                                width: 90%;
+                                height: 50%;
+                                background-color: #F1F1F1;
+                                margin: 50px auto ;
+                                position: relative;
+                                overflow: hidden;
+                                border-radius: 4px;
+                            }
+                            .mohab-bigstyle::before{
+                                content:"";
+                                background-color: #FF305B;
+                                position: absolute;
+                                width: 200px;
+                                height: 340px;
+                                right: 88%;
+                                bottom: 25%;
+                                transform: rotate(45deg);
+                            }
+                        .cli-img{
+                            position: absolute;
+                            float: left;
+                            width: 108px;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        
+                        }
+                        .cli-img img{
+                            width: 100%;
+                            border-radius: 100px;
+                        }
+                        .cli-txt{
+                            text-align: center;
+                            margin-right: 11%;
+                            margin-top: 50px;
+                        
+                        }
+                        .cli-txt h3{
+                        color: #333333;
+                        font-family: 'Roboto', sans-serif;
+                        }
+                        .cli-txt i{
+                            position: absolute;
+                            right: 70%;
+                            top: 91px;
+                        }
+                        .cli-txt label{
+                            color: #333333;
+                        font-family: 'Roboto', sans-serif;
+                           position: relative;
+                           top: 10px;
+                           right: 35px;
+                        }
+                        .cli-txt p{
+                            width: 80%;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            font-size: 13px;
+                            margin-top: 20px;
+                            margin-left: 140px;
+                            text-align: left;
+                            color: #555555;
+                        }
+                        .stars{
+                            margin-left: 130px;
+                        }
+                        .stars i{
+                            width: 5px;
+                        }
+                        .our-blog{
+                            font-family: 'Roboto', sans-serif;
+                            background-color: #F1F1F1;
+                            width: 100%;
+                            height: fit-content;
+                            overflow: hidden;
+                        }
+                        .our-blog h2{
+                            color: #333333;
+                            font-weight: 800;
+                                width: fit-content;
+                                margin-top: 45px;
+                                margin-left: 40%;
+                                text-align: center;
+                                position: relative;
+                                line-height: 2em;
+                                font-size: xx-large;
+                            }
+                            .our-blog h2::before{
+                                content: "";
+                            left: 0;
+                            margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                width: 10px;
+                                height: 10px;
+                                bottom: 0;
+                                border-top: solid 1px #FF305B;
+                                border-bottom: solid 1px #FF305B;
+                                width: 60px;
+                            }
+                            .our-blog h2::after {
+                                content: "";
+                                left: 0;
+                                margin: 0 auto;
+                                position: absolute;
+                                right: 0;
+                                bottom: 4;
+                                background-color: #FF305B;
+                                width: 130px;
+                                height: 1px;
+                            }
+                            .our-contaner{
+                                margin-left: 65px;
+                                margin-top: 20px;
+                                line-height: 3em;
+                            }
+                            .our-contaner p{
+                                line-height: 1.5em;
+                                color: #8d8888;
+                            }
+                            .grab i{
+                                float: left;
+                                position: relative;
+                                top: 20px;
+                            }
+                            .our-contaner a{
+                               transition: 0.8s;
+                               float: left;
+                               font-size: 17px;
+                               font-weight: 400;
+                               text-decoration: unset;
+                               color: #333333;
+                            }
+                            .blog-one,.blog-yout,.blog-two{
+                                width: 80%;
+                                background-color: #FFFFFF;
+                                float: left; 
+                                margin-left: 10px;
+                                margin-bottom: 20px;
+                            }
+                            .grab{
+                                padding-left: 20px;
+                            }
+                            .our-contaner img{
+                                width: 100%;
+                            }
+                            .blog-yout iframe{
+                        
+                        
+                            }
+                            .pad{
+                                padding-top: 16px;
+                            }
+                            .blog-one h4,.blog-yout h4,.blog-two h4{
+                                transition: 0.8s;
+                                font-size: 16;
+                                cursor: pointer;
+                            }
+                            .blog-one h4:hover,.blog-yout h4:hover,.blog-two h4:hover{
+                                color: #FF305B;
+                            }
+                            .blog-one a:hover,.blog-yout a:hover,.blog-two a:hover{
+                                color: #FF305B;
+                            }
+                    }
+                    /*الصفحة السابعة*/
+                    @media screen and (max-width:600px){
+                        
+                        
+                    }
+
+                    
+
+ 
+
+                
+
+
+        
